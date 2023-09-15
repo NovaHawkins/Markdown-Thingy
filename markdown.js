@@ -14,6 +14,6 @@ This is **bold** and *italic* text.
 
 const htmlContent = MarkdownTransformer.convertMarkdownToHTML(markdownContent)
 
-const body = document.getElementById("markdown-content")
+const body = document.getElementById('markdown-content')
 
 body.innerHTML = body
