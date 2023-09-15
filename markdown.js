@@ -14,4 +14,4 @@ This is **bold** and *italic* text.
 
 const htmlContent = MarkdownTransformer.convertMarkdownToHTML(markdownContent)
 
-console.log(htmlContent)
+document.write(htmlContent)
